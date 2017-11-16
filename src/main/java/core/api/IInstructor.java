@@ -6,7 +6,8 @@ package core.api;
 public interface IInstructor {
 
     /**
-     * Add homework to class {@code className}, taught in year {@code year}, with title {@code homeworkName}, provided this instructor has been assigned to this class.
+     * Add homework to class {@code className}, taught in year {@code year}, with title {@code homeworkName}, 
+     * provided this instructor has been assigned to this class.
      *
      * @param instructorName The name of the instructor who assigns the homework
      * @param className Class for which the homework should be added
